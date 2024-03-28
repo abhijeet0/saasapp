@@ -1,0 +1,83 @@
+status_code,exception,api
+
+500,Make sure to apply tenantsMiddleware,/
+500,Make sure to apply tenantsMiddleware,/
+500,Make sure to apply tenantsMiddleware,/
+500,Make sure to apply tenantsMiddleware,/
+500,Make sure to apply tenantsMiddleware,/
+500,Make sure to apply tenantsMiddleware,/
+500,Make sure to apply tenantsMiddleware,/
+500,Make sure to apply tenantsMiddleware,/
+500,Make sure to apply tenantsMiddleware,/
+404,Invalid ID format: undefined,/v1/users
+404,Invalid ID format: undefined,/v1/users
+500,TypeError: Cannot read properties of undefined (reading 'decode'),/v1/users
+500,TypeError: Cannot read properties of undefined (reading 'decode'),/v1/users
+400,Unexpected token : in JSON at position 53,/v1/groups
+400,X-TENANT-ID not provided,/v1/users-roles-groups-mappings
+400,X-TENANT-ID not provided,/v1/users-roles-groups-mappings?x-tenant-id=praveetch123
+400,user_id must be a string,user_id should not be empty,role_id must be a string,role_id should not be empty,group_id must be a string,/v1/users-roles-groups-mappings
+500,CastError: Cast to string failed for value "Response {
+  statusCode: 200,
+  message: 'Success',
+  result: {
+    _id: new ObjectId('65ee9ba068096133fdbf61a9'),
+    first_name: 'testing',
+    last_name: 'users',
+    email: 'testuser11234567899@praveetech.com',
+    password: 'Xyz@123poppoo',
+    azure_user_id: '70fe5ceb-a6d9-4500-9d3d-0c51f4b80a30',
+    created_at: 2024-03-11T05:50:24.319Z,
+    updated_at: 2024-03-11T05:50:24.319Z,
+    is_active: 1,
+    is_delete: 0,
+    __v: 0
+  },
+  isSuccess: true
+}" (type Response) at path "user_id" for model "UsersRolesGroupsMappings",/v1/users
+500,CastError: Cast to string failed for value "Response {
+  statusCode: 200,
+  message: 'Success',
+  result: {
+    _id: new ObjectId('65ee9ba068096133fdbf61a9'),
+    first_name: 'testing',
+    last_name: 'users',
+    email: 'testuser11234567899@praveetech.com',
+    password: 'Xyz@123poppoo',
+    azure_user_id: '70fe5ceb-a6d9-4500-9d3d-0c51f4b80a30',
+    created_at: 2024-03-11T05:50:24.319Z,
+    updated_at: 2024-03-11T05:50:24.319Z,
+    is_active: 1,
+    is_delete: 0,
+    __v: 0
+  },
+  isSuccess: true
+}" (type Response) at path "user_id" for model "UsersRolesGroupsMappings",/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+403,Forbidden resource,/v1/users
+400,X-TENANT-ID not provided,/v1/users-roles-groups-mappings/get-user-permissions/%7Buser_id%7D
+400,X-TENANT-ID not provided,/v1/users-roles-groups-mappings/get-user-permissions/user_id
+400,X-TENANT-ID not provided,/v1/users-roles-groups-mappings/get-user-permissions/user_id
+400,X-TENANT-ID not provided,/v1/users/get-by-azure-user-id/65ee9ba068096133fdbf61a9
+400,X-TENANT-ID not provided,/v1/users-roles-groups-mappings/get-user-permissions/user_id
+400,X-TENANT-ID not provided,/v1/users-roles-groups-mappings/get-user-permissions/65ee9ba068096133fdbf61a9
+404,Cannot GET /v1/users-roles-groups-mappings/get-user-permissions/65ee9ba068096133fdbf61a9,/v1/users-roles-groups-mappings/get-user-permissions/65ee9ba068096133fdbf61a9
+400,X-TENANT-ID not provided,/v1/roles
