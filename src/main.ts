@@ -28,20 +28,20 @@ async function bootstrap() {
   app.useGlobalFilters(new ValidationExceptionFilter());
   app.useGlobalPipes(new ValidationPipe({transform: true}));
 
-  await app.listen(process.env.HTTP_PORT || 4000);
+  await app.listen(3000);
 }
 bootstrap();
 
-let cloud_type;
+// let cloud_type;
 
 
-function setCloudType() {
-    console.log("===--",process.env.SSO_TYPE)
-    if (process.env.SSO_TYPE == "azure") { 
-        return cloud_type = new AzureAdService();
-    } else {
-      return cloud_type = "hey"
-    }
-}
-setCloudType();
-export default cloud_type;
+// function setCloudType() {
+//     console.log("===--",process.env.SSO_TYPE)
+//     if (process.env.SSO_TYPE == "azure") { 
+//         return cloud_type = new AzureAdService();
+//     } else {
+//       return cloud_type = "hey"
+//     }
+// }
+// setCloudType();
+// export default cloud_type;
