@@ -32,16 +32,16 @@ async function bootstrap() {
 }
 bootstrap();
 
-// let cloud_type;
+let cloud_type;
 
 
-// function setCloudType() {
-//     console.log("===--",process.env.SSO_TYPE)
-//     if (process.env.SSO_TYPE == "azure") { 
-//         return cloud_type = new AzureAdService();
-//     } else {
-//       return cloud_type = "hey"
-//     }
-// }
-// setCloudType();
-// export default cloud_type;
+function setCloudType() {
+    console.log("===--",process.env.SSO_TYPE)
+    if (process.env.SSO_TYPE == "azure") { 
+        return cloud_type = new AzureAdService();
+    } else {
+      return cloud_type = "hey"
+    }
+}
+setCloudType();
+export default cloud_type;

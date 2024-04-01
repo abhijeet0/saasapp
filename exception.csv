@@ -81,3 +81,5 @@ status_code,exception,api
 400,X-TENANT-ID not provided,/v1/users-roles-groups-mappings/get-user-permissions/65ee9ba068096133fdbf61a9
 404,Cannot GET /v1/users-roles-groups-mappings/get-user-permissions/65ee9ba068096133fdbf61a9,/v1/users-roles-groups-mappings/get-user-permissions/65ee9ba068096133fdbf61a9
 400,X-TENANT-ID not provided,/v1/roles
+404,Cannot GET /api/v1/users-roles-groups-mappings,/api/v1/users-roles-groups-mappings
+404,Cannot GET /favicon.ico,/favicon.ico
